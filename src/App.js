@@ -12,7 +12,7 @@ import { ProductNav } from "./components/ProductNav";
 
 function App() {
   return (
-    <div className=" overflow-hidden">
+    <div className=" overflow-hidden bg_img_main">
       {/* <MyNav /> */}
       <ProductNav />
       <PricingPlan />
