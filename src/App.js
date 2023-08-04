@@ -7,6 +7,7 @@ import PricingPlan from "./components/PricingPlan";
 // import MyNav from "./components/MyNav";
 import GameHosting from './components/GameHosting';
 import OurLocations from "./components/OurLocations";
+import MyFooter from "./components/MyFooter";
 // import { Hero } from "./components/Hero";
 
 function App() {
@@ -14,12 +15,13 @@ function App() {
     <>
       {/* <MyNav /> */}
       <PricingPlan />
-      <OurLocations />
       <GameHosting />
+      <OurLocations />
       {/* <Hero /> */}
       <Testimonials/>
       <BasicFeatures />
-      <ModPack/>
+      <ModPack />
+      <MyFooter/>
     </>
   );
 }
