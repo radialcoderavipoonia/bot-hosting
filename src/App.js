@@ -12,7 +12,7 @@ import MyFooter from "./components/MyFooter";
 
 function App() {
   return (
-    <>
+    <div className="overflow-hidden">
       {/* <MyNav /> */}
       <PricingPlan />
       <GameHosting />
@@ -22,7 +22,7 @@ function App() {
       <BasicFeatures />
       <ModPack />
       <MyFooter/>
-    </>
+    </div>
   );
 }
 
