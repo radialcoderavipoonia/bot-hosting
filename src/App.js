@@ -5,22 +5,24 @@ import ModPack from "./components/ModPack";
 import Testimonials from "./components/Testimonials";
 import PricingPlan from "./components/PricingPlan";
 // import MyNav from "./components/MyNav";
-import GameHosting from './components/GameHosting';
+import GameHosting from "./components/GameHosting";
 import OurLocations from "./components/OurLocations";
+import { ProductNav } from "./components/ProductNav";
 // import { Hero } from "./components/Hero";
 
 function App() {
   return (
-    <>
+    <div className=" overflow-hidden">
       {/* <MyNav /> */}
+      <ProductNav />
       <PricingPlan />
       <OurLocations />
       <GameHosting />
       {/* <Hero /> */}
-      <Testimonials/>
+      <Testimonials />
       <BasicFeatures />
-      <ModPack/>
-    </>
+      <ModPack />
+    </div>
   );
 }
 

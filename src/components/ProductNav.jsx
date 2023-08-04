@@ -9,7 +9,11 @@ export const ProductNav = () => {
       <Container className=" custom_container">
         <div className=" d-flex justify-content-start align-items-center">
           <span>
-            <img src={host} alt="host" className="w-100 mx_500 translate-middle-x" />
+            <img
+              src={host}
+              alt="host"
+              className="w-100 mx_500 transform_50_xxl"
+            />
           </span>
         </div>
       </Container>
